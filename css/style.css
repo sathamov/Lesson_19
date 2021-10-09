@@ -1,0 +1,32 @@
+body{
+    background-color: black;    
+}
+
+.container{
+    width: 1140px;
+    background-color: white;
+}
+
+@media (max-width: 1160px){
+    body{
+        width: 1060px;
+        background-color:white;
+
+    }
+}
+
+@media (max-width: 1060px){
+    body{
+        width: 960px;
+        background-color:rgb(28, 82, 230);
+
+    }
+}
+
+@media (max-width: 960px){
+    body{
+        width: 860px;
+        background-color:rgb(224, 211, 26);
+
+    }
+}
